@@ -2,8 +2,8 @@ class Application
   #
   def call(env)
     resp = Rack::Response.new
-    resp.write "Good Morning!"
-    resp.finish
+    # resp.write "Good Morning!"
+    # resp.finish
   #
     time_now = Kernel.rand(0..24)
 

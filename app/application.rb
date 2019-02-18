@@ -6,7 +6,7 @@ class Application
     resp.finish
   #
     time_1 = Kernel.rand(0..24)
-    
+
     if time_1 < 12
       resp.write "Good Morning"
     else

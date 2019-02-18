@@ -13,7 +13,7 @@ class Application
     # resp.write "#{time_2}\n"
   #   resp.write "#{num_3}\n"
   #
-    if time_1 < 12 
+    if time_1 < 12
       resp.write "Good Morning"
     else
       resp.write "Good Afternoon"
